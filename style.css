@@ -24,12 +24,12 @@ body {
   color: white;
   display: flex; /* SF */
   flex-direction: column; /* SF */
-  font: normal 1rem "Philosopher", "Quicksand", sans-serif;
   text-align: center;
 }
 
 .content {
   flex: 1 0 auto; /* SF */
+  font: normal 1rem "Philosopher", "Quicksand", sans-serif;
 }
 
 header h1 {

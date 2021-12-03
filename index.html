@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,6 +17,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Head Scripts -->
+    <!--[if lt IE 9]>
+          <script src="js/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+
     <title>Weather Widget</title>
 </head>
 
@@ -28,7 +34,7 @@
         <main>
             <section class="weather" id="weather">
             </section>
-            <form action="" method="get">
+            <form>
                 <input class="input" id="weather-search" type="text" name="search" placeholder=" Enter location ">
                 <label for="weather-search"> </label>
                 <button type="submit">Search</button>
