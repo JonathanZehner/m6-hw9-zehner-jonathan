@@ -6,4 +6,59 @@
 }
 
 /*--===== Universal Styling =====--*/
-/*-- ---- Fonts ---- --*/
+/*-- ---- Fonts ---- --*
+Google Fonts
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+*-- ---- Fonts (end) --*/
+
+/*-- Sticky Footer (abbreviated SF) --*/
+html,
+body {
+  height: 100%; /* SF */
+}
+
+body {
+  background-image: linear-gradient(rgb(0, 0, 87), rgb(7, 164, 255));
+  color: white;
+  display: flex; /* SF */
+  flex-direction: column; /* SF */
+  font: normal 1rem "Philosopher", "Quicksand", sans-serif;
+  text-align: center;
+}
+
+.content {
+  flex: 1 0 auto; /* SF */
+}
+
+header h1 {
+  font-size: 3rem;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  font: normal 1rem/1.5 "Quicksand";
+}
+
+button {
+  background-color: lightgrey;
+  padding: 0 5px;
+}
+
+.footer {
+  flex-shrink: 0; /* SF */
+}

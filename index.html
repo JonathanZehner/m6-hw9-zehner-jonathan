@@ -20,25 +20,28 @@
 </head>
 
 <body>
-    <header>
-        <h1>Current Weather</h1>
-    </header>
+    <div class="content">
+        <header>
+            <h1>Current Weather</h1>
+        </header>
+        
+        <main>
+            <section class="weather" id="weather">
+            </section>
+            <form action="" method="get">
+                <input id="weather-search" type="text" name="search" placeholder=" Enter location ">
+                <label for="weather-search"> </label>
+                <button type="submit">Search</button>
+            </form>
+        </main>        
+    </div>
 
-    <main>
-        <section id="weather">
-        </section>
-        <form action="" method="get">
-            <input id="weather-search" type="text" name="search" placeholder=" Enter location ">
-            <label for="weather-search"> </label>
-            <button type="submit">Search</button>
-        </form>
-    </main>
-
-    <footer>
-
+    <footer class="footer">
+    
     </footer>
+
     <!-- JavaScript -->
-    <script src="index.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
