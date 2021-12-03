@@ -52,11 +52,11 @@ button {
   border: 1px solid black;
   border-radius: 3px;
   font: normal 1rem/1.5 "Quicksand";
+  padding: 0 5px;
 }
 
 button {
   background-color: lightgrey;
-  padding: 0 5px;
 }
 
 .footer {
