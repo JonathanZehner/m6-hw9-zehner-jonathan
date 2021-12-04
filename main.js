@@ -50,5 +50,10 @@ form.onsubmit = function(e) {
         feelsLike.textContent = 'Feels Like: ' + data.main.feels_like + ' °F';
         wx.appendChild(feelsLike);
     })
+    .catch(() => {
+        var err = document.createElement('h2');
+        err.textContent = 'Location Not Found';
+        wx.appendChild(err);
+    })
 
 }

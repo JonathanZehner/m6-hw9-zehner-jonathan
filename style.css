@@ -103,4 +103,5 @@ button {
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 10px auto;
+  max-width: 500px;
 }
