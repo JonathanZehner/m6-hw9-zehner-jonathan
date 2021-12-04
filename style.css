@@ -9,6 +9,7 @@
 /*-- ---- Fonts ---- --*
 Google Fonts
     font-family: 'Great Vibes', cursive;
+    font-family: 'Jost', sans-serif;
     font-family: 'Philosopher', sans-serif;
     font-family: 'Quicksand', sans-serif;
 *-- ---- Fonts (end) --*/
@@ -45,6 +46,14 @@ main {
 .weather {
   display: flex;
   flex-direction: column;
+}
+
+.weather h2 {
+  font: 200 2rem/1.5 "Jost", sans-serif;
+}
+
+.weather h3 {
+  font: 300 1.5rem/1.5 "Jost", sans-serif;
 }
 
 input,
