@@ -36,6 +36,6 @@ This project creates a weather widget that utilizes _Open Weather Map_ for an ac
 
 2. Preventing the fetched weather info from stacking instead of replacing. When I perform multiple searches, each returns a result and adds it to the screen creating multiple weather info returns. Instead, I want the new search to replace the old information.
 
-- #### **Resolution:**
+- #### **Resolution:** I first attempted to create an if:else statement to manually remove the created elements made by the widget. This yielded errors. So, after reaching out to Prof. Lee Warwick, I removed the if:else statment and instead included _wx.innerHTML = "";_, which removed previous queries and allowed only the current query to display.
 
 ---

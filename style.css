@@ -30,7 +30,7 @@ body {
 
 .content {
   flex: 1 0 auto; /* SF */
-  font: normal 1rem "Philosopher", "Quicksand", sans-serif;
+  font: normal 1rem "Philosopher", "Jost", sans-serif;
 }
 
 header h1 {
@@ -48,20 +48,45 @@ main {
   flex-direction: column;
 }
 
+.weather h2,
+h3 {
+  padding: 5px;
+}
+
 .weather h2 {
-  font: 200 2rem/1.5 "Jost", sans-serif;
+  font: 200 2.25rem/1.5 "Jost", sans-serif;
 }
 
 .weather h3 {
-  font: 300 1.5rem/1.5 "Jost", sans-serif;
+  font: 200 1.5rem/1.5 "Jost", sans-serif;
+}
+
+.weather img {
+  margin: -15px auto;
+  max-width: 300px;
+  width: 75%;
+}
+
+.weather p {
+  font: 300 1.3rem/1.5 "Jost", sans-serif;
+  margin: -45px auto 45px;
+  text-transform: capitalize;
+}
+
+form {
+  margin-top: 25px;
 }
 
 input,
 button {
   border: 1px solid black;
   border-radius: 3px;
-  font: normal 1rem/1.5 "Quicksand";
+  font: normal 1rem/1.5 "Jost";
   padding: 0 5px;
+}
+
+input {
+  margin-right: 10px;
 }
 
 button {
@@ -70,4 +95,12 @@ button {
 
 .footer {
   flex-shrink: 0; /* SF */
+  font: 100 1rem/1.5 "Jost", sans-serif;
+}
+
+.inline {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 10px auto;
 }

@@ -29,25 +29,25 @@ form.onsubmit = function(e) {
         name.textContent = data.name + ", " + data.sys.country;
         wx.appendChild(name);
 
-        //Weather Conditions
-        var currentWx = document.createElement('h3');
-        currentWx.textContent = data.weather[0].description;
-        wx.appendChild(currentWx);
-
         //Weather Icon
         var img = document.createElement('img');
         var imgSrc = 'http://openweathermap.org/img/wn/'+data.weather[0].icon+'@2x.png'
         img.src = imgSrc;
         wx.appendChild(img);
 
-        //Current Temperature
+        //Weather Conditions
+        var currentWx = document.createElement('p');
+        currentWx.textContent = data.weather[0].description;
+        wx.appendChild(currentWx);
+
+       //Current Temperature
         var currentTemp = document.createElement('h3');
-        currentTemp.textContent = data.main.temp;
+        currentTemp.textContent = 'Currently: ' + data.main.temp + ' °F';
         wx.appendChild(currentTemp);
 
         //Feels Like Temperature
         var feelsLike = document.createElement('h3');
-        feelsLike.textContent = data.main.feels_like;
+        feelsLike.textContent = 'Feels Like: ' + data.main.feels_like + ' °F';
         wx.appendChild(feelsLike);
     })
 
