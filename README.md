@@ -14,6 +14,8 @@ This project creates a weather widget that utilizes _Open Weather Map_ for an ac
 
 - Hafsah Emekoma. (August 22, 2020). _Using Fetch API in JavaScript_. Start it up. https://medium.com/swlh/using-fetch-api-in-javascript-62455a998ec2
 
+- George Martsoukos. (April 30, 2021). _Build a simple weather app with vanilla JavaScript_. envatotuts+. https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893
+
 ---
 
 ### Issues Experienced:
