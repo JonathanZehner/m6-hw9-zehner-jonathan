@@ -1,3 +1,5 @@
+<img style="float: right;" src="images/logo.png">
+
 m6-hw9-zehner-jonathan
 
 # Weather Widget Proof of Concept (POC)
