@@ -20,6 +20,8 @@ This project creates a weather widget that utilizes _Open Weather Map_ for an ac
 
 1. Creating the API call to openweathermap.org. How do you pull the text entered into the search box of the \<form> element into the query portion of the API call in order to return the desired results?
 
+![alt text](images/screenshot-error-issue1.png "Screenshot of Issue # 1")
+
 - #### Resolution:
 
 ---
